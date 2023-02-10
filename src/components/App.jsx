@@ -1,5 +1,5 @@
-import Profile from './profile/Profile';
-import user from '../user.json';
+import Profile from './Profile/Profile';
+import user from 'user.json';
 export const App = () => {
   return (
     <div
@@ -12,8 +12,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Profile ddd={user} />
-      
+      <Profile user={user} />
     </div>
   );
 };
