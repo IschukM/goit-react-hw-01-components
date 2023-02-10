@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/goit-react-hw-01-components/npx%20create-react-app/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-01-components/npx%20create-react-app/static/js/main.08e382cf.js",
+    "main.js": "/goit-react-hw-01-components/npx%20create-react-app/static/js/main.45c004f7.js",
     "index.html": "/goit-react-hw-01-components/npx%20create-react-app/index.html",
     "main.7acaea2f.css.map": "/goit-react-hw-01-components/npx%20create-react-app/static/css/main.7acaea2f.css.map",
-    "main.08e382cf.js.map": "/goit-react-hw-01-components/npx%20create-react-app/static/js/main.08e382cf.js.map"
+    "main.45c004f7.js.map": "/goit-react-hw-01-components/npx%20create-react-app/static/js/main.45c004f7.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.08e382cf.js"
+    "static/js/main.45c004f7.js"
   ]
 }
