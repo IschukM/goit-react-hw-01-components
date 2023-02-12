@@ -16,12 +16,11 @@
   margin: auto;
 }
 .stats {
+  width: 100%;
   list-style: none;
   display: flex;
-
+  padding: 0;
   align-items: center;
-  margin-top: 0;
-  margin-bottom: 8px;
 
   font-size: 16px;
   line-height: 24px;
@@ -31,7 +30,6 @@
 .stats__item {
   width: 100px;
   text-align: center;
-  border: 3px;
-  border-color: blue;
+
   background-color: blueviolet;
 }
