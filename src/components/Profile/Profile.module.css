@@ -1,35 +1,71 @@
 .profile {
-  width: 300px;
-  height: 500px;
-  background-color: turquoise;
+  margin: auto;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  max-width: 300px;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 8px 8px 20px -6px rgba(212, 175, 55, 0.6);
 }
 .description {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: 0.25px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  background-color: gray;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .avatar {
-  width: 250px;
-  display: block;
-  margin: auto;
+  border: 3px solid coral;
+  border-radius: 50%;
+  width: 30%;
+  margin-top: 16px;
+}
+
+.name {
+  color: coral;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.tag {
+  text-align: center;
+  margin-bottom: 8px;
+  color: wheat;
+}
+.location {
+  text-align: center;
+  margin-bottom: 8px;
+  color: wheat;
 }
 .stats {
-  width: 100%;
-  list-style: none;
+  color: black;
   display: flex;
-  padding: 0;
+  justify-content: space-around;
   align-items: center;
-
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  letter-spacing: 0.25px;
+  background-color: tan;
+  padding: 16px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .stats__item {
-  width: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.label {
+  font-weight: bold;
   text-align: center;
-
-  background-color: blueviolet;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.quantity {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 16px;
 }

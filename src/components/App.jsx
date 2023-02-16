@@ -4,16 +4,7 @@ import { Statistics } from './Statistics/Statistics';
 import data from 'data.json';
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    <div>
       <Profile
         username={user.username}
         tag={user.tag}
