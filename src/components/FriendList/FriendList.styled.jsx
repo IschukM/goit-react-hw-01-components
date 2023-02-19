@@ -18,7 +18,7 @@ export const List = styled.ul`
 export const FriendItem = styled.li`
   display: flex;
   align-items: center;
- 
+  background-color: white;
   border-radius: 5px;
   padding: 10px;
   box-shadow: 8px 8px 20px -6px rgba(212, 175, 55, 0.6);
