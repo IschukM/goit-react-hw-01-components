@@ -4,7 +4,7 @@ export const ProfileCard = styled.div`
   margin: auto;
   margin-top: 64px;
   margin-bottom: 64px;
-  max-width: 300px;
+  max-width: 360px;
   border: 2px solid black;
   border-radius: 5px;
   position: relative;

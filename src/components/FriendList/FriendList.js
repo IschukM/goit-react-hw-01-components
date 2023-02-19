@@ -7,6 +7,7 @@ import {
   Name,
   Header,
 } from './FriendList.styled';
+
 export const FriendList = ({ friends }) => {
   return (
     <>

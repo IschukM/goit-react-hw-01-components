@@ -1,9 +1,9 @@
 import styled from '@emotion/styled';
 
 export const Card = styled.section`
-  background-color: #00000;
+  background-color: ${props => props.theme.colors.white};
   border-radius: 8px;
-  width: 300px;
+  width: 360px;
   box-shadow: 8px 8px 20px -6px rgba(212, 175, 55, 0.6);
   margin: auto;
   margin-bottom: 64px;
@@ -20,11 +20,9 @@ export const StatList = styled.ul`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #777f8c};
+  background-color: ${props => props.theme.colors.statBkgColor};
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-     
-  
 `;
 export const StatItem = styled.li`
   display: flex;
