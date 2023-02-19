@@ -17,3 +17,4 @@ export const theme = Object.freeze({
     statBkgColor: '#d4af37',
   },
 });
+export * from './theme';

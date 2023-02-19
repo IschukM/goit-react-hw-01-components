@@ -23,17 +23,19 @@ export const StatList = styled.ul`
   background-color: #777f8c};
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  padding: 0;
+     
   
 `;
 export const StatItem = styled.li`
-   display: flex;
-   width: 100%;
-   flex-direction: column;
-   padding: 16px;
-   
-   background-color: #ffffff};
- `;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: 16px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: ${props => props.color};
+`;
+
 export const Label = styled.span`
   text-align: center;
 `;

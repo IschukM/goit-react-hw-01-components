@@ -11,18 +11,20 @@ import {
 
 export const Statistics = ({ stats, title }) => {
   return (
-    <Card>
-      <Title>{title}</Title>
+    <>
+      <Card>
+        <Title>{title}</Title>
 
-      <StatList>
-        {stats.map(({ id, label, percentage }) => (
-          <StatItem key={id} color={getRandomColor()}>
-            <Label>{label}</Label>
-            <Percentage>{percentage}</Percentage>
-          </StatItem>
-        ))}
-      </StatList>
-    </Card>
+        <StatList>
+          {stats.map(({ id, label, percentage }) => (
+            <StatItem key={id} color={getRandomColor()}>
+              <Label>{label}</Label>
+              <Percentage>{percentage}</Percentage>
+            </StatItem>
+          ))}
+        </StatList>
+      </Card>
+    </>
   );
 };
 
